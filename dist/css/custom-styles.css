@@ -1,0 +1,58 @@
+.btn-action {
+	background-color: #00a65a;
+	border-color: #00a65a;
+}
+
+.btn-action:hover {
+	background-color: #038c4d;
+	border-color: #038c4d;
+}
+
+input[type="radio"] + *::before {
+  
+}
+
+input[type="radio"]:checked + * {
+  color: #00a65a !important;
+}
+
+input[type="radio"]:checked + *::before {
+  background: #00a65a !important;
+  border-color: #00a65a !important;
+}
+
+.p-l-0 {
+	padding-left: 0px !important;
+}
+
+.float-left {
+	float: left !important;
+}
+
+.fs-12 {
+	font-size: 12px !important;
+}
+
+.fs-14 {
+	font-size: 14px !important;
+}
+
+.fs-16 {
+	font-size: 16px !important;
+}
+
+.fs-20 {
+	font-size: 20px !important;
+}
+
+.zali-green {
+	color: #00a65a !important;
+}
+
+.red {
+	color: red !important;
+}
+
+.dataTables_wrapper {
+	overflow-x: scroll !important;
+}
