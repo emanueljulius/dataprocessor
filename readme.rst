@@ -17,7 +17,7 @@ Application Database configuration file is dataprocessor/application/config/data
 NOTE: THERE SHOULD BE AN INTERNET CONNECTION FOR THE APPLICATION TO FULL FUNCTION AS SOME OF THE APPLICATION LIBRARIES ARE USING ONLINE LINKS
       
       Below are some of the used libraries
-      Highg chart libraries
+      Highchart libraries
       <script src="https://code.highcharts.com/highcharts.js"></script>
       <script src="https://code.highcharts.com/modules/data.js"></script>
       <script src="https://code.highcharts.com/modules/drilldown.js"></script>
