@@ -13,6 +13,7 @@ Application configuration file is under dataprocessor/application/config/config.
       
 NOTE: when downloading the application by clicking Download ZIP button the name of the folder comes as "dataprocessor-master", this should be RENAMED to "dataprocessor"
      And base url in dataprocessor/application/config/config.php should be http://localhost/dataprocessor as below
+     
      $config['base_url'] = 'http://localhost/dataprocessor';
 
 Application Database configuration file is dataprocessor/application/config/database.php
