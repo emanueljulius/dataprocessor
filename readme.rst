@@ -1,11 +1,15 @@
 Dataprocessor Application
 
-dataprocessor is using CodeIgniter php framework
+Dataprocessor is using CodeIgniter php framework
 
 Application routes is dataprocessor/application/config/routes.php
 Application Model is dataprocessor/application/models/Dbquery_model.php
 Application Controller is dataprocessor/application/controllers/Welcome.php
 Application views are under dataprocessor/application/views directory
+
+Application configuration file is under dataprocessor/application/config/config.php
+      Application base url should be http://localhost/dataprocessor resembling the name of the application
+      Or it can be configured according to where the application is placed(currently this is configured $config['base_url'] = 'http://localhost/dataprocessor';)
 
 Application Database configuration file is dataprocessor/application/config/database.php
             Dabase name: bigdatadb
