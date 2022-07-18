@@ -1,6 +1,6 @@
 Dataprocessor Application
 
-dataprocessor is using CodeIgniter php framework
+Dataprocessor is using CodeIgniter php framework
 
 Application routes is dataprocessor/application/config/routes.php
 Application Model is dataprocessor/application/models/Dbquery_model.php
