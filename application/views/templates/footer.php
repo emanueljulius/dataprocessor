@@ -56,35 +56,6 @@
       info: true,
     });
   });
-  function scheduleCheckboxChanged(){
-    if($('.schedule_time_check').is(":checked")){  
-        $(".schedule_time_cont").show();
-      }else{
-        $(".schedule_time_cont").hide();
-      }
-  }
-  function editEnticementScheduleStatus(enticementID, status){
-     $.post("/halotel-megapromo-broadcast/index.php/update-enticement-schedule-status", {enticement_id: enticementID, status: status}, function(result){
-       if(result == 1){
-        location.reload();
-       }else{
-        showMsg("Error!", "Please retry after some time.")
-        location.reload();
-       }
-    });
-    stickyMsg("Processing...");
-  }
-  function editAcquisitionScheduleStatus(acquisitionID, status){
-     $.post("/halotel-megapromo-broadcast/index.php/update-acquisition-schedule-status", {acquisition_id: acquisitionID, status: status}, function(result){
-       if(result == 1){
-        location.reload();
-       }else{
-        showMsg("Error!", "Please retry after some time.")
-        location.reload();
-       }
-    });
-    stickyMsg("Processing...");
-  }
   function showProcessingtickyMsg(){
     stickyMsg("Processing...");
   }
