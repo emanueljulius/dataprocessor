@@ -10,6 +10,9 @@ Application views are under dataprocessor/application/views directory
 Application configuration file is under dataprocessor/application/config/config.php
       Application base url should be http://localhost/dataprocessor resembling the name of the application
       Or it can be configured according to where the application is placed
+      
+NOTE: when downloading the application by clicking Download ZIP button the name of the folder comes as "dataprocessor-master", this should be RENAMED to "dataprocessor"
+     And base url in dataprocessor/application/config/config.php should be http://localhost/dataprocessor($config['base_url'] = 'http://localhost/dataprocessor';)
 
 Application Database configuration file is dataprocessor/application/config/database.php
             Dabase name: bigdatadb
